@@ -1,0 +1,792 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Presentation</title>
+    <meta name="description" content="Преплитането на новите технологии в бъдещото образование">
+    <meta name="author" content="Alex Tsvetanov & Antoan Georgiev">
+    <!--
+		<link href="/presentations/reveal.js/css/impress-demo.css" rel="stylesheet">
+-->
+    <link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+    <link rel="shortcut icon" href="../../../favicon.png">
+    <link rel="stylesheet" href="../../../presentations/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../../../presentations/reveal.js/css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../../presentations/reveal.js/lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../../../presentations/reveal.js/css/print/pdf.css' : '../../../presentations/reveal.js/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <script src="https://code.jquery.com/jquery-1.7.min.js">
+    </script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="../../../presentations/reveal.js/css/template.css" rel="stylesheet" /> </head>
+		<script src="https://www.chartjs.org/dist/2.7.0/Chart.bundle.js"></script><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style>
+    <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+    <style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <div class="head">
+                    <div class="title">Преплитането на новите технологии в<br>бъдещото образование</div>
+                </div>
+                <div class="body">
+                    <center>
+                        <img src="https://educationpro.github.io/logo.svg" height="600px">
+                    </center>
+                </div>
+                <div class="foot">
+                    <div class="bottom">
+                        <div class="author">Алекс Цветанов, <br>Антоан Георгиев</div>
+                        <div class="organization">
+                            <!--СМГ, ППМГ - гр. Монтана-->EducationPro</div>
+                        <div class="webpages"><a href="https://educationpro.github.io/">https://educationpro.github.io/</a>
+                        </div>
+                    </div>
+                    <div class="number"> </div>
+                    <div class="follow"> </div>
+                </div>
+                <aside class="notes"> </aside>
+            </section>
+            <section>
+                <div class="head">
+                    <div class="logo"></div>
+                    <div class="title">За нас</div>
+                </div>
+                <div class="body">
+                    <img src="./alex.jpg" width="40%" style="padding-right: 10%; float: left;">
+                    <ul>
+                        <br>
+                        <li>Софийска
+                            <br>математическа гимназия</li>
+                        <br>
+                        <br>
+                        <li>Национален състезател
+                            <br>по информатика</li>
+                        <li>Лектор в SoftUni</li>
+                        <li>Основател на TechEdu++</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <div class="foot">
+                    <div class="number"> </div>
+                    <div class="follow"> </div>
+                </div>
+            </section>
+            <section>
+                <div class="head">
+                    <div class="logo"></div>
+                    <div class="title">За нас (2)</div>
+                </div>
+                <div class="body">
+                    <img src="./antoan.jpg" width="40%" style="padding-right: 10%; float: left;">
+                    <ul>
+                        <br>
+                        <li>Природо-математическа
+                            <br>профилирана гимназия
+                            <br>гр. Монтана</li>
+                        <br>
+                        <br>
+                        <li>Разработчик на приложения<br>с VR</li>
+                        <li>Участник в SRS`17</li>
+                        <li>Отличен със специална награда<br> от спонсори на УчИМИ</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <div class="foot">
+                    <div class="number"> </div>
+                    <div class="follow"> </div>
+                </div>
+            </section>
+            <section>
+                <div class="head">
+                    <div class="logo"></div>
+                    <div class="title">Съдържание</div>
+                </div>
+                <div class="body">
+                    Изкуствен интелект:
+                    <br>
+                    <ul>
+                        <li>Какво е изкуствен интелект?</li>
+                        <li>Къде има приложение изкуствения интелект?</li>
+                        <li>Колко е достъпен изкуствения интелект?</li>
+                    </ul>
+                    <br>
+                    <br>Виртуална реалност:
+                    <br>
+                    <ul>
+                        <li>Какво е виртуална реалност?</li>
+                        <li>Къде има приложение виртуалната реалност?</li>
+                        <li>Колко е достъпна виртуалната реалност?</li>
+                    </ul>
+                    <br>
+                    <br>Образователна система:
+                    <br>
+                    <ul>
+                        <li>Какви видове образователни системи се прилагат в света/Европа/България?</li>
+                        <li>Какви предимства и недостатъци имат?</li>
+                    </ul>
+                    <br>
+                    <br>Технологиите на практика в образованието:
+                    <br>
+                    <ul>
+                        <li>Как може да използваме изкуствен интелект и виртуална реалност в обучителния процес?</li>
+                        <li>Какви предимства и недостатъци има?</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <div class="foot">
+                    <div class="number"> </div>
+                    <div class="follow"> </div>
+                </div>
+            </section>
+            <section comment="AI">
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Какво е изкуствен интелект?</div>
+                    </div>
+                    <div class="body">
+                        <ul>
+                            <li>Наука за концепциите, които позволяват на компютрите да правят неща, които за хората изглеждат разумни</li>
+                            <br>
+                            <li>Анализира обкръжаващата го среда</li>
+                            <br>
+                            <li>Предприема действия, които увеличават възможността за постигане на определени цели</li>
+                        </ul>
+                        <center>
+                            <img style="height:450px; width: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/MSL_robocup_2006.jpg/450px-MSL_robocup_2006.jpg">
+                        </center>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Къде има приложение изкуствения интелект?</div>
+                    </div>
+                    <div class="body">
+                        <ul>
+														<li>онлайн асистент, осигуряващ обслужване на клиенти на уебстраница</li>
+                            <li>„игрите“ на борсата и управление на собствеността</li>
+                            <li>при разпознаване на текст и глас</li>
+														<li>медицинска диагностика</li>
+														<li>в националната сигурност</li>
+														<li>има огромен принос в развитието на сензорите на охранителните системи</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Изкуствения интелект</div>
+                    </div>
+                    <div class="body">
+											<br>
+											<p style="font-size: 40px">
+												Съществуват редица състезания и награди, които насърчават изследователската дейност в сферата на изкуствения интелект. Главните теми, които се насърчават са: обща машинна интелигентност, комуникативно поведение, извличане на данни, роботизирани коли, роботизиран футбол и други игри.
+											</p>
+											<br>
+											<center>
+											<img width="1100px" src="https://www.extremetech.com/wp-content/uploads/2012/08/Google500KmilesLexus.jpg">
+											</center>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Колко е достъпен изкуствения интелект?</div>
+                    </div>
+                    <div class="body">
+												<img src="https://s3.amazonaws.com/user-media.venngage.com/697422-199f2d761068f6b2df1766918f9ac328.jpg">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+						</section>
+						<section comment="VR">
+							  <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Какво е виртуална реалност?</div>
+                    </div>
+                    <div class="body">
+												<ul>
+														<li>термин, обозначаващ нереален свят, създаван чрез компютърни системи и аудио-видео апаратура</li>
+														<li>среда, която физически не съществува</li>
+														<li>среда, създадена от информационните технологии</li>
+												</ul>
+												<center>
+														<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gamescom_2015_Cologne_Sony_Morpheus_Virtual_Reality_%2819707261303%29.jpg/330px-Gamescom_2015_Cologne_Sony_Morpheus_Virtual_Reality_%2819707261303%29.jpg">
+												</center>
+										</div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+								</section>
+							  <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Къде има приложение виртуалната реалност?</div>
+                    </div>
+                    <div class="body">
+											<ul>
+												<li>Обучение и тренировки </li><li>Виртуално изкуство </li><li>Културно наследство </li><li>Машиностроене </li><li>Архитектура и строителство </li><li>Инфраструктура и пътно проектиране </li><li>Терапия </li><li>Наука </li><li>Филми
+											</ul>
+										</div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+								</section>
+							  <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Колко е достъпна виртуалната реалност?</div>
+                    </div>
+                    <div class="body">
+											<ul>
+												<li>Цените на headset започват от няколко лева</li>
+												<li>Всички нови смартфони поддържат VR</li>
+												<li>Големи компании използват VR</li>
+											</ul>
+											<img src="https://www.jmt.bg/blog/wp-content/uploads/2017/06/google-cardboard.jpg">
+										</div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+								</section>
+						</section>
+						<section comment="Education System">
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Какви видове образователни системи<br>се прилагат в<br>света/Европа/България?</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												<ul>
+													<li>Щвеция</li>
+													<li>Швейцария</li>
+													<li>Германия</li>
+												</ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Швеция</div>
+                    </div>
+                    <div class="body" style="font-size: 80%">
+												<blockquote cite="https://bghelp.net/forums/articles/%D1%88%D0%B2%D0%B5%D1%86%D0%B8%D1%8F/445701-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B2-%D1%88%D0%B2%D0%B5%D1%86%D0%B8%D1%8F">
+													През 2011 год. е създаден нов Закон за народната просвета. Идеята му е да насърчава по-високо ниво на знания, свобода на избора и безопасност и сигурност на учениците. Създадени са и нови учебни програми. Въведена е и нова система за оценяване. Старата шведската система е заменена от нова скала за класификация с шест степени от А до F. С оценка от А до Е учениците преминават в по-горните класове, а F се приема като слаба оценка и с такъв резултат учащият се остава в същия клас.
+												</blockquote>
+												<blockquote cite="https://bghelp.net/forums/articles/%D1%88%D0%B2%D0%B5%D1%86%D0%B8%D1%8F/445701-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D0%B2-%D1%88%D0%B2%D0%B5%D1%86%D0%B8%D1%8F">
+													От 2012 год. е в сила правилото децата да започват училище от 6-годишна възраст.
+												</blockquote>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Швеция (2)</div>
+                    </div>
+                    <div class="body" style="font-size: 65%">
+										Ние: Преселихме се неотдавна в Швеция и имаме 11-годишна дъщеря, която искаме да запишем.
+										<br>Той: Добре, попълнете този формуляр, трябва ни основна информация за дъщеря ви.
+										<br>Ние: Знаете ли, тя не знае шведски.
+										<br>Той: Добре, ще научи.
+										<br>Ние: Може би първо ще трябва да работи по отделна програма?
+										<br>Той: Има такава възможност, но ние смятаме, че най-добре и най-бързо ще научи шведски в клас с останалите деца. Всъщност, една учителка по шведски език ще работи по два часа дневно само с нея.
+										<br>Ние: Какво трябва да вземе Леона за училище?
+										<br>Той: Нищо. Учебниците, тетрадки, химикалки, гумички, острилки, линийки, триъгълници, боички... всичко ще получи тук. Трябва само да следи батерията на iPad-а й да не падне.
+										<br>Ние: Значи трябва да купим iPad?
+										<br>Той: О, не, iPad ще получи в училище, по-лесно да се справя с превода и ученето, но трябва само да внимава за батерията.
+										<br>Ние: Трябвали да приготвяме храна за детето за училище?
+										<br>Той: Няма нужда, закуската е от 7:30 ч., а обядът – 12 ч. Всеки ден имаме по две менюта – месно и вегетарианско.
+										<br>Ние: Смятате ли, че вкъщи трябва да говорим на шведски с Леона?
+										<br>Той: В никакъв случай. Вкъщи си говорете на хърватски. И не само това, би било добре веднъж седмично да учи хърватски като допълнително обучение.
+										<br>Ние: Имате ли някой, който преподава хърватски език?
+										<br>Той: В нашето училище нямаме, но допълнително обучение по хърватски език се провежда всеки четвъртък от 16 ч. в Ериксдалсколан.
+										<br>Ние: Това е в другия край на града...
+										<br>Той: Няма проблем, ще поръчаме такси.
+										<br>Ние: Такси?
+										<br>Той: Да, ще чака на паркинга всеки четвъртък в 15:45 ч. и ще я върне вкъщи веднага след часа.
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Швеция (3)</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												<ul>
+														<li>насърчава по-високо ниво на знания</li>
+														<li>свобода на избора</li>
+												</ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Швейцария</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												<blockquote cite="https://darbi.eu/">
+												В Швейцария има различни видове училища за горното ниво на средното образование – академични, които подготвят учениците за <b>постъпване в университет</b>; професионални, които подготвят учениците за <b>широка гама от професии</b>; и общообразователни - в тях се предлага по-продължително обучение по <b>общообразователните дисциплини</b>.
+												</blockquote>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Германия</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												Hauptschule:
+												<ul>
+														<li>от 5-ти до 9-ти клас</li>
+														<li>позволява да се продължи обучението в професионално училище до 18 години</li>
+												</ul>
+												<center><img style="height: 450px; width: auto;" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Wuppertal_-_Katholische_Hauptschule_Bundesallee_03_ies.jpg"></center>
+										</div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Германия</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												Realschule:
+												<ul>
+														<li>от 5-ти до 10-ти клас</li>
+														<li>професионално училище, общообразователно училище или в гимназия</li>
+														<li>съчетава общообразователната и практическа насочености</li>
+												</ul>
+												<center><img style="height: 450px; width: auto;" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Realschule_B%C3%BCnde-Nord.jpg"></center>
+										</div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Германия</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												Gymnasium - до 13-ти клас (средно образование):
+												<ul>
+														<li>възможност да се продължи образованието в университет или друг тип висше учебно заведение</li>
+														<li>класическо образование</li>
+														<li>след завършен 5-ти клас или спешно завършен 11-ти клас в <b>Realschule</b></li>
+														<li>класически и моделни езици, математика и природни науки</li>
+												</ul>
+												<br>
+												<br>
+												Вариант на традиционната форма е <b>Berufliches Gymnasium</b>, което включва и ориентация и специализация в областта на икономиката и технологиите в допълнение към стандартните академични предмети.
+												<center><img style="height: 450px; width: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SigmundFreudGymnasium.Wohlmutstra%C3%9Fe.JPG/1024px-SigmundFreudGymnasium.Wohlmutstra%C3%9Fe.JPG"></center>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">България</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												Недостатъци спрямо вече изброените системи:<br>
+												<ul>
+														<li>малък избор</li>
+														<li>стари програми</li>
+														<li>ниско ниво на практическа насоченост</li>
+												</ul>
+												<br>
+												<br>
+												Последвали проблеми:
+												<br>
+												<ul>
+														<li>губи се интереса на учениците</li>
+														<li>засилва се желанието им да „избягат“</li>
+												</ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Проучване сред<br>българските ученици</div>
+                    </div>
+                    <div class="body" style="font-size: 100%">
+												<br>
+    <div id="container" style="width: 75%;"><div style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;" class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+		<!--
+        <canvas id="canvas" style="display: block; height: 600px; width: 1400px;" width="1500" height="600" class="chartjs-render-monitor"></canvas>-->
+        <canvas id="canvas" width="1900" height="1100" class="chartjs-render-monitor"></canvas>
+    </div>
+
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+												<div class="box-info">национално представително изследване, извършено преди началото на новата учебна година по поръчка на Центъра за приобщаващо образование, в рамките на програма "С поглед в бъдещето – училището има смисъл", реализирана с подкрепата на фондация "Велукс"</div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+						</section>
+						<section comment="Project">
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title"></div>
+                    </div>
+                    <div class="body">
+												<table width="99%" border="0">
+													<tr style="font-size: 150%"><td colspan="3" style="text-align: center;">Възможно или не</td></tr>
+													<tr style="font-size: 100%"><td width="33%" style="text-align: center;">Интеракция</td><td width="33%" style="text-align: center;">Индивидуален подход</td><td width="33%" style="text-align: center;">Практически задачи</td></tr>
+												</table>
+												<center>
+													<img src="./bot.png" height="700px">
+												</center>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Технологиите на практика в образованието?</div>
+                    </div>
+                    <div class="body">
+												<table width="98%">
+													<tr>
+														<td style="text-align: center;">Изкуствен интелект</td><td style="text-align: center;">Виртуална реалност</td>
+													</tr>
+													<tr>
+														<td style="text-align: center;">Индивидуален подход</td><td style="text-align: center;">Интеракция</td>
+													</tr>
+												</table>
+												<br><br>
+												<center width="96%"> ПРАКТИЧЕСКИ ЗАДАЧИ </center> 
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Технологиите на практика в образованието?<br>(недостатъци)<br>*не винаги е вярно*</div>
+                    </div>
+                    <div class="body">
+												<ul>
+														<li>Не развива социални умения</li>
+														<li>Не може да развива креативността</li>
+												</ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Фирми, които подкрепят проекта:</div>
+                    </div>
+                    <div class="body" style="font-size: 150%">
+                        <br>
+                        <ul>
+                            <li>VR Express</li>
+                            <li>iGreet</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+						</section>
+						<section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title"></div>
+                    </div>
+                    <div class="body">
+                        <center> 
+													<img height="960px" src="../../../presentations/questions.png"></img>
+                        </center>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="head">
+                        <div class="logo"></div>
+                        <div class="title">Тема за дискусия</div>
+                    </div>
+                    <div class="body" style="font-size: 150%">
+                        Полезна ли е дигитализацията на 21<sup>ви</sup> век?
+                    </div>
+                    <br>
+                    <br>
+                    <div class="foot">
+                        <div class="number"> </div>
+                        <div class="follow"> </div>
+                    </div>
+                </section>
+						</section>
+        </div>
+    </div>
+    <script src="../../../presentations/reveal.js/lib/js/head.min.js"></script>
+    <script src="../../../presentations/reveal.js/js/reveal.js"></script>
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            history: true, // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [{
+                src: '../../../presentations/reveal.js/plugin/markdown/marked.js'
+            }, {
+                src: '../../../presentations/reveal.js/plugin/markdown/markdown.js'
+            }, {
+                src: '../../../presentations/reveal.js/plugin/notes/notes.js',
+                async: true
+            }, {
+                src: '../../../presentations/reveal.js/plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+        Reveal.configure({
+            backgroundTransition: 'none'
+        })
+    </script>
+    <script>
+        var logos = document.getElementsByClassName('logo');
+        console.log(logos.length);
+        for (var i = 0; i < logos.length; i++) {
+            logos[i].innerHTML = '<img width="150px" src="https://educationpro.github.io/logo.svg" />';
+        }
+        var follows = document.getElementsByClassName('follow');
+        for (var i = 0; i < follows.length; i++) {
+            follows[i].innerHTML = '<center> Follow us<br> <a href="https://github.com/EducationPro" alt="GitHub"><img src="../../img/github.png" /></a> </center>';
+        }
+        var numbers = document.getElementsByClassName('number');
+        for (var i = 0; i < numbers.length; i++) {
+            numbers[i].innerHTML = (i + 1);
+        }
+    </script>
+    <script>
+        var color = Chart.helpers.color;
+        var barChartData = {
+						labels: ["ФВС", "ИИ", "Музика", "История", "Математика", "География", "АЕ", "Важни предмети", "Важни предмети"],
+            datasets: [
+							{
+									label: 'Харесван (в %)',
+									backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+									borderColor: window.chartColors.red,
+									borderWidth: 1,
+									data: [
+										76, 57, 56, 43, 40, 35, 31, 00, 00
+									]
+							}, 
+							{
+									label: 'Не харесван (в %)',
+									backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+									borderColor: window.chartColors.red,
+									borderWidth: 1,
+									data: [
+										24, 43, 44, 57, 60, 65, 69, 00, 00
+									]
+							}, 
+							{
+									label: 'Трудни (в %)',
+									backgroundColor: color(window.chartColors.green).alpha(0.5).rgbString(),
+									borderColor: window.chartColors.red,
+									borderWidth: 1,
+									data: [
+										00, 00, 00, 00, 00, 00, 00, 59, 00
+									]
+							}, 
+							{
+									label: 'Безинтересни (в %)',
+									backgroundColor: color(window.chartColors.orange).alpha(0.5).rgbString(),
+									borderColor: window.chartColors.red,
+									borderWidth: 1,
+									data: [
+										00, 00, 00, 00, 00, 00, 00, 00, 46  
+									]
+							},
+						]
+        };
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myBar = new Chart(ctx, {
+                type: 'bar',
+                data: barChartData,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'top',
+												labels: {
+														fontSize: 20,
+												},
+                    },
+										scales: 
+										{
+											xAxes: 
+											[
+												{
+													ticks: 
+													{
+														fontSize: 22
+													}
+												}
+											],
+											yAxes: 
+											[
+												{
+													ticks: 
+													{
+														callback: function(value, index, values) 
+														{
+															return value + '%';
+														},
+														fontSize: 20
+													}
+												}
+											]
+										},
+                    title: {
+                        display: true,
+                        text: 'Центъра за приобщаващо образование, програма "С поглед в бъдещето – училището има смисъл"',
+												fontSize: 22
+                    }
+                }
+            });
+
+        };
+
+        var colorNames = Object.keys(window.chartColors);
+    </script>
+
+</body>
+
+</html>
